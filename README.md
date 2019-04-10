@@ -80,5 +80,51 @@
 - [ ] Test for horizontal Access control problems.
 - [ ] Test for missing authorization.
 
+## Data Validation:
+
+- [ ] Test for Reflected Cross Site Scripting.
+- [ ] Test for Stored Cross Site Scripting. 
+- [ ] Test for DOM based Cross Site Scripting.
+- [ ] Test for Cross Site Flashing.
+- [ ] Test for HTML Injection.
+- [ ] Test for SQL Injection.
+- [ ] Test for LDAP Injection.
+- [ ] Test for ORM Injection.
+- [ ] Test for XML Injection.
+- [ ] Test for XXE Injection.
+- [ ] Test for SSI Injection.
+- [ ] Test for XPath Injection.
+- [ ] Test for XQuery Injection.
+- [ ] Test for IMAP/SMTP Injection.
+- [ ] Test for Code Injection.
+- [ ] Test for Expression Language Injection.
+- [ ] Test for Command Injection.
+- [ ] Test for Overflow.
+- [ ] Test for incubated vulnerabilities.
+- [ ] Test for HTTP Splitting/Smuggling.
+- [ ] Test for HTTP Verb Tampering.
+- [ ] Test for Open Redirection.
+- [ ] Test for Local File Inclusion.
+- [ ] Test for Remote File Inclusion.
+- [ ] Compare client-side and server-side validation rules.
+- [ ] Test for NoSQL injection.
+- [ ] Test for HTTP parameter pollution.
+- [ ] Test for auto-binding.
+- [ ] Test for Mass Assignment.
+- [ ] Test for NULL/Invalid Session Cookie.
+
+## Denial of Service:
+
+- [ ] Test for anti-automation. 
+- [ ] Test for account lockout.
+- [ ] Test for HTTP protocol DoS.
+- [ ] Test for SQL wildcard DoS.
+
+
+
+
+
+
+
 
 
