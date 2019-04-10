@@ -136,3 +136,33 @@
 - [ ] Check for proper use of salting.
 - [ ] Check for randomness functions.
 
+## Risky Functionality - File Uploads:
+
+- [ ] Test that file size limits, upload frequency and total file counts are defined and are enforced 
+- [ ] Test that file contents match the defined file type.
+- [ ] Test that all file uploads have Anti-Virus scanning in-place.
+- [ ] Test that unsafe filenames are sanitized.
+- [ ] Test that uploaded files are not directly accessible within the web root.
+- [ ] Test that uploaded files are not served on the same hostname/port.
+- [ ] Test that files and other media are integrated with the authentication and authorization schemas.
+
+## Risky Functionality - Card Payment:
+
+- [ ] Test for known vulnerabilities and configuration issues on Web Server and Web Application.
+- [ ] Test for default or guessable password.
+- [ ] Test for non-production data in live environment, and vice-versa.
+- [ ] Test for Injection vulnerabilities.
+- [ ] Test for Buffer Overflows.
+- [ ] Test for Insecure Cryptographic Storage.
+- [ ] Test for Insufficient Transport Layer Protection.
+- [ ] Test for Improper Error Handling.
+- [ ] Test for all vulnerabilities with a CVSS v2 score > 4.0.
+- [ ] Test for Authentication and Authorization issues.
+- [ ] Test for CSRF.
+
+## HTML-5:
+
+- [ ] Test Web Messaging.
+- [ ] Test for Web Storage SQL injection.
+- [ ] Check CORS implementation.
+- [ ] Check Offline Web Application.
