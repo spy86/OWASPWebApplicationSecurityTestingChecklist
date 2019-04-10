@@ -120,11 +120,19 @@
 - [ ] Test for HTTP protocol DoS.
 - [ ] Test for SQL wildcard DoS.
 
+## Business Logic:
 
+- [ ] Test for feature misuse.
+- [ ] Test for lack of non-repudiation.
+- [ ] Test for trust relationships.
+- [ ] Test for integrity of data.
+- [ ] Test segregation of duties.
 
+## Cryptography:
 
-
-
-
-
+- [ ] Check if data which should be encrypted is not.
+- [ ] Check for wrong algorithms usage depending on context.
+- [ ] Check for weak algorithms usage.
+- [ ] Check for proper use of salting.
+- [ ] Check for randomness functions.
 
