@@ -55,3 +55,30 @@
 - [ ] Test for user-accessible authentication history.
 - [ ] Test for out-of channel notification of account lockouts and successful password changes.
 - [ ] Test for consistent authentication across applications with shared authentication schema / SSO.
+
+## Session Management:
+
+- [ ] Establish how session management is handled in the application for example `tokens in cookies`, `token in URL`.
+- [ ] Check session tokens for cookie flags.
+- [ ] Check session cookie scope.
+- [ ] Check session cookie duration.
+- [ ] Check session termination after a maximum lifetime.
+- [ ] Check session termination after relative timeout.
+- [ ] Check session termination after logout.
+- [ ] Test to see if users can have multiple simultaneous sessions.
+- [ ] Test session cookies for randomness.
+- [ ] Confirm that new session tokens are issued on login, role change and logout.
+- [ ] Test for consistent session management across applications with shared session management.
+- [ ] Test for session puzzling.
+- [ ] Test for CSRF and clickjacking.
+
+## Authorization:
+
+- [ ] Test for path traversal.
+- [ ] Test for bypassing authorization schema.
+- [ ] Test for vertical Access control problems like `Privilege Escalation`.
+- [ ] Test for horizontal Access control problems.
+- [ ] Test for missing authorization.
+
+
+
